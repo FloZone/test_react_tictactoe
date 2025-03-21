@@ -1,5 +1,5 @@
 import { GAME_BACK_TO, GAME_RESET } from "/src/constants/constants";
-import useGameContext from "/src/game/useGameContext";
+import useGameContext from "/src/hooks/useGameContext";
 
 const History = () => {
   const { gameState, jumpToHistory } = useGameContext();

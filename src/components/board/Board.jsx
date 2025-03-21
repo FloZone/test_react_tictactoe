@@ -1,6 +1,6 @@
-import Cell from "/src/cell/Cell";
-import useGameContext from "/src/game/useGameContext";
-import { checkWinner } from "/src/utils";
+import Cell from "/src/components/cell/Cell";
+import useGameContext from "/src/hooks/useGameContext";
+import { checkWinner } from "/src/utils/utils";
 
 const Board = () => {
   const { currentCells, play } = useGameContext();

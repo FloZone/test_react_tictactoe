@@ -3,7 +3,7 @@ import {
   STATUS_PLAYER_TURN,
   STATUS_PLAYER_WINS,
 } from "/src/constants/constants";
-import useGameContext from "/src/game/useGameContext";
+import useGameContext from "/src/hooks/useGameContext";
 import { checkWinner } from "/src/utils/utils";
 
 const Status = () => {
